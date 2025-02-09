@@ -1,7 +1,7 @@
 header {
   padding-block: 2rem;
   font: var(--text-md);
-  
+
   & .container {
     display: flex;
     justify-content: space-between;
@@ -11,6 +11,13 @@ header {
   & #profile {
     display: flex;
     gap: 2rem;
+
+    & img {
+      width: 11rem;
+      height: 11rem;
+      object-fit: cover;
+      border-radius: 50%;
+    }
     & div {
       max-width: 24rem;
     }
