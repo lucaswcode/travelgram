@@ -1,5 +1,7 @@
 header {
   padding-block: 2rem;
+  font: var(--text-md);
+  
   & .container {
     display: flex;
     justify-content: space-between;
@@ -12,13 +14,11 @@ header {
     & div {
       max-width: 24rem;
     }
+
     & h1 {
       font: var(--text-lg);
       color: var(--text-color-primary);
       margin-bottom: .5rem;
-    }
-    & p {
-      font: var(--text-md);
     }
   }
 
